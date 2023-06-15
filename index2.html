@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Save Pandas - Donate Now</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .logo {
+      width: 100px; 
+      height: 100px; 
+      border-radius: 50%; 
+      object-fit: cover; 
+      margin-right: 10px; 
+      overflow: hidden; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home" class="logo-link">
+        <img src="images (1).png" alt="Panda Land Logo" class="logo">
+      </a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to Save Pandas</h2>
+    <p>Help preserve one of the world's most beloved species. Your donation makes a difference. Join us in saving pandas from extinction.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Pandas</h2>
+    <p>Pandas are an endangered species native to China. They are known for their distinctive black and white markings and are considered a symbol of conservation.</p>
+    <img src="C:\Users\Azouz\Desktop\Gomycode\checkpoint css\2\1047090.jpg" alt="Panda Image" style="width: 1000px; height: auto;">
+
+  </section>
+
+  <section id="donate">
+    <h2>Donate Now</h2>
+    <p>Your contribution can help save pandas and their natural habitats. Every donation counts!</p>
+    <form action="https://your-donation-processing-url.com" method="POST">
+      <label for="amount">Donation Amount:</label>
+      <input type="number" id="amount" name="amount" step="any" placeholder="Enter donation amount" required>
+      <br>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <br>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <br>
+      <button type="submit">Donate Now</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <br>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Save Pandas Organization</p>
+  </footer>
+</body>
+</html>
